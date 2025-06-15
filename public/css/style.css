@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+/* Light theme */
+body.light {
+    background-color: #fff;
+    color: #000;
+}
+
+body.light header {
+    background-color: #f0f0f0;
+}
+
+/* Dark theme */
+body.dark {
+    background-color: #121212;
+    color: #fff;
+}
+
+body.dark header {
+    background-color: #1c1c1c;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
