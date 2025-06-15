@@ -56,14 +56,20 @@
                             </div>
                             <div class="flex pt-5">
                                 <div class="px-2">
-                                    <button class="px-5 py-3 button-color rounded-lg hover:bg-slate-600 ">
+                                    <a href="mailto:tykozidane2015@gmail.com">
+                                        <button class="px-5 py-3 button-color rounded-lg hover:bg-slate-600 ">
                                         Mail me
                                     </button>
+                                    </a>
+                                    
                                 </div>
                                 <div class="px-3 ">
-                                    <button class="px-5 py-3 bg-emerald-700 hover:bg-slate-600 text-white  rounded-lg ">
+                                    <a href="https://wa.me/6281289078298">
+                                        <button class="px-5 py-3 bg-emerald-700 hover:bg-slate-600 text-white  rounded-lg ">
                                         Whatsapp me
                                     </button>
+                                    </a>
+                                    
                                 </div>
                             </div>
                         </div>

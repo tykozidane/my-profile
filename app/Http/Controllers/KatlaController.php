@@ -45,9 +45,9 @@ class KatlaController extends Controller
             $word = DB::table('katla.words')
                 ->where('date', $now)
                 ->get();
-            $count = DB::table('katla.words')->whereTime('date', '<',$now)->count();
+            $count = DB::table('katla.words')->where('date', '<=',$now)->count();
             $objectSend = new stdClass();
-            $objectSend->dataWord = $word[0];
+            $objectSend->dataWord = $word[0] ?? "";
             $objectSend->count = $count;
             return response()->json(["code"=>"00", "message"=>"Success", "data"=>$objectSend]);
         } catch(\Throwable $err) {
